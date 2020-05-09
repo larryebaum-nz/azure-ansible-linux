@@ -161,6 +161,7 @@ resource "azurerm_virtual_machine" "vm" {
 
     inline = [
       "sudo apt-get update",
+      "sudo apt-get update",
     ]
   }
 
